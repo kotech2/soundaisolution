@@ -1,0 +1,20 @@
+{
+    "dataset_id": "138",
+    "model_id": "105",
+    "dataset_type": "P01",
+    "hyperparameter": {
+        "epoch": 1,
+        "batch": 32,
+        "lr": 0.00025
+    },
+    "test_set": [
+        {
+            "data_id": "342285",
+            "media_url": "/shared/data/01_403_S_241110_0056.wav",
+            "label": "H10101",
+            "snd_srt_time": 368.843,
+            "snd_end_time": 371.76,
+            "snd_len": "2.916999999999973"
+        }
+    ]
+}

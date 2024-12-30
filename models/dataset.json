@@ -1,0 +1,96 @@
+{
+    "dataset_id": "138",
+    "model_id": "105",
+    "dataset_type": "P01",
+    "hyperparameter": {
+        "epoch": 1,
+        "batch": 32,
+        "lr": 0.00025
+    },
+    "train_set": [
+        {
+            "data_id": "342276",
+            "media_url": "/shared/data/01_403_M_241110_0051.wav",
+            "label": "H10101",
+            "snd_srt_time": 400.78,
+            "snd_end_time": 403.664,
+            "snd_len": "2.884000000000015"
+        },
+        {
+            "data_id": "342277",
+            "media_url": "/shared/data/01_403_M_241110_0053.wav",
+            "label": "H10101",
+            "snd_srt_time": 400.58,
+            "snd_end_time": 403.611,
+            "snd_len": "3.031000000000006"
+        },
+        {
+            "data_id": "342278",
+            "media_url": "/shared/data/01_403_M_241110_0052.wav",
+            "label": "H10101",
+            "snd_srt_time": 400.733,
+            "snd_end_time": 403.651,
+            "snd_len": "2.918000000000006"
+        },
+        {
+            "data_id": "342279",
+            "media_url": "/shared/data/01_403_M_241110_0056.wav",
+            "label": "H10101",
+            "snd_srt_time": 299.197,
+            "snd_end_time": 302.114,
+            "snd_len": "2.916999999999973"
+        },
+        {
+            "data_id": "342280",
+            "media_url": "/shared/data/01_403_M_241110_0058.wav",
+            "label": "H10101",
+            "snd_srt_time": 209.116,
+            "snd_end_time": 212.401,
+            "snd_len": "3.284999999999997"
+        },
+        {
+            "data_id": "342281",
+            "media_url": "/shared/data/01_403_S_241110_0051.wav",
+            "label": "H10101",
+            "snd_srt_time": 2.456,
+            "snd_end_time": 5.34,
+            "snd_len": "2.884"
+        },
+        {
+            "data_id": "342282",
+            "media_url": "/shared/data/01_403_M_241110_0057.wav",
+            "label": "H10101",
+            "snd_srt_time": 209.211,
+            "snd_end_time": 212.361,
+            "snd_len": "3.149999999999977"
+        },
+        {
+            "data_id": "342283",
+            "media_url": "/shared/data/01_403_M_241110_0055.wav",
+            "label": "H10101",
+            "snd_srt_time": 297.431,
+            "snd_end_time": 302.101,
+            "snd_len": "4.670000000000016"
+        }
+    ],
+    "val_set": [
+        {
+            "data_id": "342284",
+            "media_url": "/shared/data/01_403_M_241110_0054.wav",
+            "label": "H10101",
+            "snd_srt_time": 297.078,
+            "snd_end_time": 302.099,
+            "snd_len": "5.021000000000015"
+        }
+    ],
+    "test_set": [
+        {
+            "data_id": "342285",
+            "media_url": "/shared/data/01_403_S_241110_0056.wav",
+            "label": "H10101",
+            "snd_srt_time": 368.843,
+            "snd_end_time": 371.76,
+            "snd_len": "2.916999999999973"
+        }
+    ]
+}
