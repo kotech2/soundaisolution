@@ -9,7 +9,7 @@ source docker_upload.sh
 ```
 
 ### 모델 학습 및 평가 방법
-models/dataset.json을 사용하여 모델 학습과 평가(test)를 수행합니다.
+models/dataset.json을 사용하여 모델 학습(train)과 평가(test)를 수행합니다.
 ```bash
 docker exec example_docker bash -c "source train_test.sh"
 ```
@@ -22,5 +22,4 @@ docker exec example_docker bash -c "source test.sh"
 
 모델.zip 파일은 Dockerfile과 모델 소스파일인 source/ 폴더를 포함하여야 합니다.
 source/ 폴더는 사용하실 모델 소스로 변경해주시고 환경에 맞게 Dockerfile을 작성하시면 됩니다.
-
 
